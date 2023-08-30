@@ -1,7 +1,7 @@
 #banner{
     background: linear-gradient(to right, #a517ba, #5f1782);
     color: #fff;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .promo-title{
@@ -16,7 +16,7 @@
 }
 
 .play-btn{
-    margin:20px 20px 0 20px;
+    margin:20px 20px 20px 20px;
     width: 45px;
 }
 
