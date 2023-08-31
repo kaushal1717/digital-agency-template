@@ -1,0 +1,28 @@
+.user-info{
+    white-space: pre;
+}
+
+#testimonial{
+    margin: 55px 0;
+}
+
+#testimonial h1{
+    margin-bottom: 40px;
+}
+
+.testimonials{
+    border-left: 4px solid #7B1798;
+    margin: 50px 0;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.user-details{
+    font-size: 12px;
+    display: inline-block;
+}
