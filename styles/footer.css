@@ -1,0 +1,45 @@
+#footer{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+     padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border-radius: 0;
+    max-width: 250px;
+    margin-top: 25px;
+    border: none;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 30px;
+}

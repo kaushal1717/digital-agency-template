@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/services.css">
     <link rel="stylesheet" href="styles/about_us.css">
     <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/social-media.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -24,19 +26,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="#top">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="#service">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TESTIMONIALS</a>
+                    <a class="nav-link" href="#about-us">ABOUT US</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="#testimonial">TESTIMONIALS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#footer">CONTACT</a>
                   </li>
                 </ul>
             </div>
@@ -125,6 +127,46 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="social-media">
+      <div class="container text-center">
+        <p>CONNECT WITH OUR SOCIAL MEDIA</p>
+          <div class="social-media-icons">
+            <a href="#"><img src="styles/assets/facebook-icon.png"></a>
+            <a href="#"><img src="styles/assets/instagram-icon.png"></a>
+            <a href="#"><img src="styles/assets/twitter-icon.png"></a>
+            <a href="#"><img src="styles/assets/whatsapp-icon.png"></a>
+            <a href="#"><img src="styles/assets/linkedin-icon.png"></a>
+          </div>
+      </div>
+    </section>
+    <section id="footer">
+      <img src="styles/assets/wave2.png" class="footer-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="styles/assets/demo-logo.png">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto numquam itaque eaque beatae asperiores ipsam! Quidem a quaerat esse. Ad.
+            </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p><i class="fa fa-location-dot"></i>Location of office, City</p>
+            <p><i class="fa fa-phone"></i>+91 12345 67890</p>
+            <p><i class="fa fa-envelope"></i>xyz@zmail.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email">
+            <button class="btn btn-primary">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+      <script src="smooth-scroll.js"></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
     </section>
 </body>
 </html>
